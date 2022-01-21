@@ -1,0 +1,111 @@
+#login {
+    background: linear-gradient(120deg, #4c79d3 44.9%, #ffffff 45%) no-repeat
+        fixed;
+}
+#app {
+    background: linear-gradient(120deg, #ffffff 44.9%, #4c79d3 45%) no-repeat
+        fixed;
+}
+
+header {    
+    margin-top: 80px;
+    padding: 5px;
+}
+
+.color-primary {
+    color: #4e0070;
+}
+
+.color-secondary {
+    color: #4c79d3;
+}
+
+.text-login {
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+    margin: 80px;
+}
+
+.coins {
+    margin-top: 200px;
+}
+
+.button-default {
+    border-radius: 10px;
+    background-color: #4e0070;
+    color: white;
+}
+
+.button-cancel { 
+    border-radius: 10px;
+    color: white;
+    background-color: #8b8b8b;
+}
+
+.button-float {
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    padding: 0% !important;
+    bottom: 1rem;
+    right: 2rem;
+    background-color: #4e0070;
+    color: white;
+    border: 2px solid #4e0070;  
+}
+
+.button-float:hover {
+    border: 2px solid #4c79d3;
+    background-color: white;
+    color: #4c79d3;
+}
+
+.button-login {
+    border-radius: 10px;
+    background-color: #4e0070;
+    color: white;
+    width: 50%;
+    margin: 0 25%;
+}
+
+.button-login:hover, .button-default:hover {
+    background: #4c79d3;
+    color: white;
+}
+
+.link-default {
+    color: #4e0070;
+    cursor: pointer;
+}
+
+.link-default:hover {
+    color: #4c79d3;
+}
+
+.info {
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+.registro:hover { 
+    color: #4c79d3;
+    cursor: pointer;
+
+}
+
+.registro {
+    color: #4e0070;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logout{
+    min-width: 5rem !important;
+}
+
+.menu {
+    margin-right: 20px;
+}
